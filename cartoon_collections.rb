@@ -24,8 +24,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-   if planeteer_calls.map == valid_calls.map
-     valid_calls 
+   if planeteer_calls.include? == valid_calls.find
+     valid_calls
     else
   end
 end
